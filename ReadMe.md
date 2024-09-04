@@ -4,7 +4,7 @@
 
 ## The Portfolio website we will be building today
 
-[Build along with is documentation](Template02/readme.md)
+[Build along with us](Template02/readme.md)
 
 
 
