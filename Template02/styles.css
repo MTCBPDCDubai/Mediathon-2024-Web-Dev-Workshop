@@ -1,0 +1,259 @@
+body {
+    background-color: #000; /* Sets the background color of the page to black */
+    color: #fff; /* Sets the text color to white */
+    font-family: 'Arial', sans-serif; /* Sets the font style to Arial with a fallback to sans-serif */
+    margin: 0; /* Removes default margin around the body */
+    padding: 0; /* Removes default padding around the body */
+}
+
+.container {
+    display: flex; /* Uses Flexbox to align child elements */
+    justify-content: space-between; /* Distributes space evenly between child elements */
+    align-items: center; /* Aligns items vertically in the center */
+    width: 80%; /* Sets the container width to 80% of the viewport */
+    max-width: 1200px; /* Sets a maximum width for the container */
+    margin: 0 auto; /* Centers the container horizontally */
+    padding: 50px; /* Adds padding around the container */
+    margin-bottom: 50px; /* Adds space below the container to separate it from other sections */
+}
+
+.text-section {
+    flex: 1; /* Allows the section to grow and fill available space */
+    padding: 20px; /* Adds padding inside the text section */
+    text-align: left; /* Aligns the text to the left */
+}
+
+.text-section h1 {
+    font-size: 64px; /* Sets the font size for the heading to 64px */
+    line-height: 1.2; /* Sets the line height to 1.2 times the font size */
+    margin: 0 0 20px 0; /* Removes top margin, adds 20px margin at the bottom */
+}
+
+.text-section p {
+    font-size: 20px; /* Sets the font size for paragraphs to 20px */
+    line-height: 1.6; /* Sets the line height to 1.6 times the font size */
+    margin: 0 0 10px 0; /* Removes top margin, adds 10px margin at the bottom */
+}
+
+.contact-button {
+    background-color: #000; /* Sets the button background color to black */
+    color: #fff; /* Sets the button text color to white */
+    border: 1px solid #fff; /* Adds a white border around the button */
+    padding: 15px 30px; /* Adds padding inside the button (top-bottom 15px, left-right 30px) */
+    margin-top: 30px; /* Adds a top margin of 30px */
+    cursor: pointer; /* Changes the cursor to a pointer when hovered over */
+    font-size: 20px; /* Sets the font size of the button text to 20px */
+    border-radius: 20px; /* Rounds the corners of the button */
+    text-align: center; /* Centers the text inside the button */
+}
+
+.underline {
+    width: 60px; /* Sets the width of the underline */
+    height: 2px; /* Sets the height of the underline */
+    background-color: #fff; /* Sets the underline color to white */
+    margin-top: 10px; /* Adds a top margin of 10px */
+}
+
+.image-section {
+    flex: 1; /* Allows the section to grow and fill available space */
+    display: flex; /* Uses Flexbox to align child elements */
+    justify-content: center; /* Centers the child elements horizontally */
+    align-items: center; /* Centers the child elements vertically */
+}
+
+.image-section img {
+    border-radius: 100%; /* Makes the image fully rounded (elliptical shape) */
+    width: 450px; /* Sets the width of the image */
+    height: 600px; /* Sets the height of the image */
+    object-fit: cover; /* Scales the image to cover the container while maintaining aspect ratio */
+}
+
+.background-section {
+    width: 80%; /* Sets the section width to 80% of the viewport */
+    max-width: 1200px; /* Sets a maximum width for the section */
+    margin: 0 auto; /* Centers the section horizontally */
+    padding: 50px; /* Adds padding around the section */
+}
+
+.background-section h1 {
+    font-size: 64px; /* Sets the font size for the heading to 64px */
+    margin-bottom: 30px; /* Adds a bottom margin of 30px */
+}
+
+.sub-section {
+    margin-top: 20px; /* Adds a top margin of 20px */
+    padding-left: 40px; /* Indents the section to the right by 40px */
+}
+
+.sub-title {
+    font-size: 24px; /* Sets the font size for the sub-title to 24px */
+    display: flex; /* Uses Flexbox to align items */
+    align-items: center; /* Centers the items vertically */
+    margin-bottom: 10px; /* Adds a bottom margin of 10px */
+}
+
+.arrow {
+    font-size: 24px; /* Sets the font size for the arrow icon */
+    margin-right: 10px; /* Adds a right margin of 10px */
+}
+
+ul {
+    list-style-type: disc; /* Sets the list style to disc (bullet points) */
+    padding-left: 20px; /* Adds padding to the left of the list items */
+    font-size: 18px; /* Sets the font size for list items to 18px */
+    line-height: 1.6; /* Sets the line height to 1.6 times the font size */
+}
+
+.art-section h1 {
+    margin-bottom: 30px; /* Adds a bottom margin of 30px */
+    padding-left: 350px; /* Indents the heading to the right by 350px */
+    font-size: 64px; /* Sets the font size for the heading to 64px */
+}
+
+.art-gallery {
+    display: flex; /* Uses Flexbox to align child elements */
+    justify-content: space-between; /* Distributes space evenly between child elements */
+    gap: 0px; /* Sets the space between gallery items to 0 */
+    padding: 100px 190px; /* Adds padding inside the gallery (top-bottom 100px, left-right 190px) */
+}
+
+.art-item {
+    text-align: center; /* Centers the text inside the item */
+    flex: 1; /* Allows the item to grow and fill available space */
+}
+
+.art-item img {
+    width: 300px; /* Sets the width of the image */
+    height: 300px; /* Sets the height of the image */
+    border-radius: 20px 20px 0 0; /* Rounds the top corners of the image */
+    object-fit: cover; /* Scales the image to cover the container while maintaining aspect ratio */
+    margin-bottom: 10px; /* Adds a bottom margin of 10px */
+}
+
+.art-item p {
+    font-size: 18px; /* Sets the font size for the paragraph */
+    line-height: 1.6; /* Sets the line height to 1.6 times the font size */
+    margin-top: 10px; /* Adds a top margin of 10px */
+}
+
+.quote-section {
+    display: flex; /* Uses Flexbox to align child elements */
+    justify-content: space-between; /* Distributes space evenly between child elements */
+    align-items: center; /* Aligns items vertically in the center */
+    width: 80%; /* Sets the section width to 80% of the viewport */
+    max-width: 1200px; /* Sets a maximum width for the section */
+    margin: 0 auto; /* Centers the section horizontally */
+    padding: 50px; /* Adds padding around the section */
+}
+
+.quote-text {
+    flex: 1; /* Allows the section to grow and fill available space */
+    text-align: left; /* Aligns the text to the left */
+    padding-right: 30px; /* Adds padding to the right */
+}
+
+.quote-text h1 {
+    font-size: 64px; /* Sets the font size for the quote text */
+    line-height: 1.2; /* Sets the line height to 1.2 times the font size */
+    margin: 0; /* Removes default margin */
+}
+
+.quote-image {
+    flex: 1; /* Allows the section to grow and fill available space */
+    display: flex; /* Uses Flexbox to align child elements */
+    justify-content: center; /* Centers the child elements horizontally */
+    align-items: center; /* Centers the child elements vertically */
+}
+
+.quote-image img {
+    width: 400px; /* Sets the width of the image */
+    height: 600px; /* Sets the height of the image */
+    border-radius: 50% / 50%; /* Makes the image elliptical */
+    object-fit: cover; /* Scales the image to cover the container while maintaining aspect ratio */
+    transform: rotate(-90deg); /* Rotates the image by -90 degrees */
+}
+
+.work-section {
+    width: 80%; /* Sets the section width to 80% of the viewport */
+    max-width: 1200px; /* Sets a maximum width for the section */
+    margin: 0 auto; /* Centers the section horizontally */
+    padding: 50px; /* Adds padding around the section */
+    text-align: left; /* Aligns the text to the left */
+}
+
+.work-section h1 {
+    font-size: 64px; /* Sets the font size for the heading to 64px */
+    margin-bottom: 30px; /* Adds a bottom margin of 30px */
+}
+
+.work-gallery {
+    display: flex; /* Uses Flexbox to align child elements */
+    justify-content: space-between; /* Distributes space evenly between child elements */
+    gap: 20px; /* Adds 20px space between gallery items */
+}
+
+.work-item {
+    text-align: center; /* Centers the text inside the item */
+    flex: 1; /* Allows the item to grow and fill available space */
+}
+
+.work-item img {
+    width: 250px; /* Sets the width of the image */
+    height: 300px; /* Sets the height of the image */
+    border-radius: 50% 50% 0 0; /* Rounds the top corners of the image */
+    object-fit: cover; /* Scales the image to cover the container while maintaining aspect ratio */
+    margin-bottom: 10px; /* Adds a bottom margin of 10px */
+}
+
+.work-item p {
+    font-size: 18px; /* Sets the font size for the paragraph */
+    line-height: 1.6; /* Sets the line height to 1.6 times the font size */
+    margin-top: 10px; /* Adds a top margin of 10px */
+    display: flex; /* Uses Flexbox to align items */
+    align-items: center; /* Centers the items vertically */
+    justify-content: center; /* Centers the items horizontally */
+}
+
+.contact-section {
+    width: 80%; /* Sets the section width to 80% of the viewport */
+    max-width: 1200px; /* Sets a maximum width for the section */
+    margin: 0 auto; /* Centers the section horizontally */
+    padding: 50px; /* Adds padding around the section */
+    text-align: left; /* Aligns the text to the left */
+}
+
+.contact-section h1 {
+    font-size: 64px; /* Sets the font size for the section title */
+    margin-bottom: 30px; /* Adds a bottom margin of 30px */
+}
+
+.contact-details {
+    display: flex; /* Uses Flexbox to align child elements */
+    justify-content: space-between; /* Distributes space evenly between child elements */
+    margin-bottom: 50px; /* Adds space between contact details and the collaborate call */
+}
+
+.contact-item h2 {
+    font-size: 24px; /* Sets the font size for the sub-heading */
+    margin-bottom: 10px; /* Adds a bottom margin of 10px */
+}
+
+.contact-item p {
+    font-size: 18px; /* Sets the font size for the paragraph */
+    line-height: 1.6; /* Sets the line height to 1.6 times the font size */
+}
+
+.collaborate {
+    text-align: left; /* Aligns the text to the left */
+}
+
+.collaborate p {
+    font-size: 18px; /* Sets the font size for the paragraph */
+    display: flex; /* Uses Flexbox to align items */
+    align-items: center; /* Centers the items vertically */
+}
+
+.arrow {
+    font-size: 24px; /* Sets the font size for the arrow icon */
+    margin-right: 10px; /* Adds a right margin of 10px */
+}
