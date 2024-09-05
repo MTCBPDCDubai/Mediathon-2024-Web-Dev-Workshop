@@ -120,6 +120,35 @@ body {
 - `border-radius`: Rounds the corners of the button
 - `text-align`: Centers the text inside the button
 
+## css for the image in the first div 
+```css 
+.image-section {
+    flex: 1; /* Allows the section to grow and fill available space */
+    display: flex; /* Uses Flexbox to align child elements */
+    justify-content: center; /* Centers the child elements horizontally */
+    align-items: center; /* Centers the child elements vertically */
+}
+```
+
+```css 
+.image-section img {
+    border-radius: 100%; /* Makes the image fully rounded (elliptical shape) */
+    width: 450px; /* Sets the width of the image */
+    height: 600px; /* Sets the height of the image */
+    object-fit: cover; /* Scales the image to cover the container while maintaining aspect ratio */
+}
+```
+```css 
+.underline {
+    width: 60px; /* Sets the width of the underline */
+    height: 2px; /* Sets the height of the underline */
+    background-color: #fff; /* Sets the underline color to white */
+    margin-top: 10px; /* Adds a top margin of 10px */
+}
+```
+
+
+
 ---
 ## Second Div of the Body
 
